@@ -32,7 +32,7 @@ async def test_get_video(username, count=5):
     
     # Cek apakah berhasil
     if video_data['success']:
-        print(f"\n✅ Successfully fetched {video_data['total_videos']} videos!")
+        print(f"\n✅ Successfully fetched {len(video_data['videos'])} videos!")
         
         # Buat folder untuk menyimpan hasil test (di src/data/videos)
         output_dir = src_root / "data" / "videos"
@@ -47,18 +47,21 @@ async def test_get_video(username, count=5):
         print(f"💾 Video data saved to: {output_file}")
         print(f"\n📊 Video Summary:")
         print(f"   - Username: {video_data['username']}")
-        print(f"   - Total Videos: {video_data['total_videos']}")
+        print(f"   - Nickname: {video_data['nickname']}")
+        print(f"   - Total Videos: {len(video_data['videos'])}")
         print(f"   - Timestamp: {video_data['timestamp']}")
         
         # Tampilkan detail setiap video
         print(f"\n📹 Video Details:")
         for idx, video in enumerate(video_data['videos'], 1):
             print(f"\n   Video {idx}:")
-            print(f"   - ID: {video['id']}")
-            print(f"   - Description: {video['desc'][:50]}..." if len(video['desc']) > 50 else f"   - Description: {video['desc']}")
-            # print(f"   - Created: {video['create_time']}")
-            # print(f"   - Stats: {video['stats']['play_count']:,} views, {video['stats']['like_count']:,} likes")
-            # print(f"   - URL: {video['video_url']}")
+            print(f"   - Video ID: {video['videoId']}")
+            print(f"   - URL: {video['videoUrl']}")
+            print(f"   - Stats:")
+            print(f"     • Views: {video['stats']['viewCount']:,}")
+            print(f"     • Likes: {video['stats']['likeCount']:,}")
+            print(f"     • Comments: {video['stats']['commentCount']:,}")
+            print(f"     • Shares: {video['stats']['shareCount']:,}")
     else:
         print(f"\n❌ Failed to fetch videos!")
         print(f"   Error: {video_data['error']}")

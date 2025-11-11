@@ -94,7 +94,7 @@ async def get_user_info(username):
 
 async def get_user_videos(username, count=5):
     """
-    Mengambil video terbaru dari user TikTok (return raw data apa adanya)
+    Mengambil video terbaru dari user TikTok dengan struktur data terformat
     
     Args:
         username (str): Username TikTok
@@ -102,52 +102,89 @@ async def get_user_videos(username, count=5):
     
     Returns:
         dict: Data videos dengan skema:
-            - username: Username
-            - total_videos: Jumlah video yang diambil
-            - videos: List raw video data dari TikTok API
+            - username: Username (uniqueId)
+            - nickname: Display name
+            - videos: List video dengan struktur:
+                - videoId: ID video
+                - videoUrl: URL video TikTok
+                - stats: Statistik video (viewCount, likeCount, commentCount, shareCount)
             - timestamp: Waktu pengambilan data
             - success: Boolean untuk status berhasil/gagal
             - error: Pesan error jika gagal
     """
-    print(f"  📡 Connecting to TikTok API...")
-    
-    async with TikTokApi() as api:
-        await api.create_sessions(
-            ms_tokens=[ms_token], 
-            num_sessions=1, 
-            sleep_after=3,
-            browser=browser,
-            headless=True
-        )
+    try:
+        print(f"  📡 Connecting to TikTok API...")
         
-        print(f"  🎬 Fetching {count} videos from @{username}...")
-        user = api.user(username=username)
-        
-        videos_data = []
-        video_count = 0
-        
-        async for video in user.videos(count=count):
-            # Batasi secara manual untuk memastikan hanya mengambil sejumlah count
-            if video_count >= count:
-                break
+        async with TikTokApi() as api:
+            await api.create_sessions(
+                ms_tokens=[ms_token], 
+                num_sessions=1, 
+                sleep_after=3,
+                browser=browser,
+                headless=True
+            )
+            
+            print(f"  🎬 Fetching {count} videos from @{username}...")
+            user = api.user(username=username)
+            
+            # Ambil info user untuk mendapatkan nickname
+            user_info = await user.info()
+            user_data = user_info.get('userInfo', {}).get('user', {})
+            nickname = user_data.get('nickname', '')
+            
+            videos_data = []
+            video_count = 0
+            
+            async for video in user.videos(count=count):
+                # Batasi secara manual untuk memastikan hanya mengambil sejumlah count
+                if video_count >= count:
+                    break
+                    
+                video_count += 1
                 
-            video_count += 1
+                # Ekstrak data video dengan struktur yang diminta
+                video_dict = video.as_dict
+                stats = video_dict.get('stats', {})
+                
+                video_info = {
+                    'videoId': video.id,
+                    'videoUrl': f"https://www.tiktok.com/@{username}/video/{video.id}",
+                    'stats': {
+                        'viewCount': stats.get('playCount', 0),
+                        'likeCount': stats.get('diggCount', 0),
+                        'commentCount': stats.get('commentCount', 0),
+                        'shareCount': stats.get('shareCount', 0)
+                    }
+                }
+                
+                videos_data.append(video_info)
+                print(f"    [{video_count}/{count}] Video ID: {video.id}")
             
-            # Ambil data video apa adanya dari TikTok API
-            video_raw_data = video.as_dict
+            # Return data dengan struktur yang diminta
+            result = {
+                'username': username,
+                'nickname': nickname,
+                'videos': videos_data,
+                'timestamp': datetime.now().isoformat(),
+                'success': True,
+                'error': None
+            }
             
-            videos_data.append(video_raw_data)
-            print(f"    [{video_count}/{count}] Video ID: {video.id}")
+            print(f"  ✓ {len(videos_data)} videos fetched successfully!")
+            return result
+            
+    except Exception as e:
+        error_type = type(e).__name__
+        error_msg = str(e)
         
-        # Return data tanpa menyimpan ke file
-        result = {
+        print(f"  ❌ Error: {error_type}")
+        print(f"     {error_msg[:150]}")
+        
+        return {
             'username': username,
-            'total_videos': len(videos_data),
-            'videos': videos_data,
+            'nickname': '',
+            'videos': [],
             'timestamp': datetime.now().isoformat(),
-            'success': True,
-            'error': None
+            'success': False,
+            'error': f"{error_type}: {error_msg[:100]}"
         }
-        
-        print(f"  ✓ {len(videos_data)} videos fetched successfully!")
-        return result
