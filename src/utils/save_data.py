@@ -6,7 +6,7 @@ def save_user_data(user_info, username):
     """
     Menyimpan data user ke 2 file terpisah:
     1. username.info.json (id, username, nickname, signature) di src/data/info
-    2. username.stats.json (followers_count, total_likes, timestamp) di src/data/stats
+    2. username.stats.json (username, nickname, followers_count, total_likes, timestamp) di src/data/stats
     
     Args:
         user_info (dict): Data user dari get_user_info()
@@ -30,6 +30,8 @@ def save_user_data(user_info, username):
     }
     
     stats_data = {
+        'username': user_info.get('username', ''),
+        'nickname': user_info.get('nickname', ''),
         'followers_count': user_info.get('followers_count', 0),
         'total_likes': user_info.get('total_likes', 0),
         'timestamp': user_info.get('timestamp', datetime.now().isoformat())

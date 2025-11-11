@@ -50,11 +50,13 @@ env/
 src/data/info/*.json
 src/data/stats/*.json
 src/data/videos/*.json
+src/data/metrics/*.json
 
 # Keep folder structure but ignore content
 !src/data/info/.gitkeep
 !src/data/stats/.gitkeep
 !src/data/videos/.gitkeep
+!src/data/metrics/.gitkeep
 
 # Logs
 *.log
