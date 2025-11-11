@@ -1,0 +1,535 @@
+{
+  "username": "fadiljaidi",
+  "positive": 29,
+  "neutral": 24,
+  "negative": 47,
+  "total": 100,
+  "sentiment_score": -18.0,
+  "videos": [
+    {
+      "video_id": "7570981634778991893",
+      "comments": [
+        {
+          "text": "miskha ko percaya bgt si sama orang ini 😭",
+          "label": "negative",
+          "score": 0.9943
+        },
+        {
+          "text": "babysitter nya aisha laki2?",
+          "label": "negative",
+          "score": 0.7592
+        },
+        {
+          "text": "👶🏻: perasaan dulu mahluk ini ngga masuk di pertanyaan 77 itu deh🧐",
+          "label": "negative",
+          "score": 0.7809
+        },
+        {
+          "text": "Malah ikutan nangis",
+          "label": "positive",
+          "score": 0.5965
+        },
+        {
+          "text": "kelompok A : fadil, miskah, bu ida\nkelompok B : ka yislam, pak muh, dila\nkelompok C : aisyah, david, ocong",
+          "label": "neutral",
+          "score": 0.8756
+        },
+        {
+          "text": "lagi lagi miskah lupa nyalain murotal😞",
+          "label": "negative",
+          "score": 0.9731
+        },
+        {
+          "text": "dil gw tanya lo beneran kenal gw??\nkok 'orang yang mungkin anda kenal'",
+          "label": "negative",
+          "score": 0.9816
+        },
+        {
+          "text": "jgn gitu dil, kasian aisha",
+          "label": "negative",
+          "score": 0.9982
+        },
+        {
+          "text": "Aisyah tertekan sejak dini😭😭😭",
+          "label": "negative",
+          "score": 0.9984
+        },
+        {
+          "text": "minta tolong miskah... kunci kamarnya aisyah dong kalo km tinggal 😩",
+          "label": "neutral",
+          "score": 0.9962
+        },
+        {
+          "text": "kak coba liat ini",
+          "label": "neutral",
+          "score": 0.9915
+        },
+        {
+          "text": "miskah toolooooooong😂😂😂",
+          "label": "negative",
+          "score": 0.9984
+        },
+        {
+          "text": "komen aja sebelum ribuan 🤭",
+          "label": "neutral",
+          "score": 0.7984
+        },
+        {
+          "text": "apalah 🤣😭😭",
+          "label": "positive",
+          "score": 0.9984
+        },
+        {
+          "text": "takut bgt, ngira fadil bapak nya",
+          "label": "negative",
+          "score": 0.9978
+        },
+        {
+          "text": "ini babysitter nya beneran lakilaki? yakin bgt sama org ini miskah😭",
+          "label": "positive",
+          "score": 0.6747
+        },
+        {
+          "text": "lagi lagi miskah lupa setel murottal",
+          "label": "negative",
+          "score": 0.9679
+        },
+        {
+          "text": "isi otak fadil fyp tiktok yang jail² kayanya😭",
+          "label": "negative",
+          "score": 0.9952
+        },
+        {
+          "text": "miskah lupa taro yasin",
+          "label": "neutral",
+          "score": 0.7319
+        },
+        {
+          "text": "aisha:\"bukannya genderuwo itu gaib ya? ini kenapa kelihatan?\"",
+          "label": "negative",
+          "score": 0.9716
+        }
+      ]
+    },
+    {
+      "video_id": "7567734124061101332",
+      "comments": [
+        {
+          "text": "fungsi nya YouTube apa dill😭😭",
+          "label": "negative",
+          "score": 0.7693
+        },
+        {
+          "text": "mo main juga 🤣",
+          "label": "positive",
+          "score": 0.9281
+        },
+        {
+          "text": "kakkk fadilll liaaaatt mirip kann??🤣🤣",
+          "label": "neutral",
+          "score": 0.4257
+        },
+        {
+          "text": "mau ngingetin dil lu ada akun yt ☺",
+          "label": "neutral",
+          "score": 0.9969
+        },
+        {
+          "text": "Fadil jail banget 😭😭😭😂😂😂\nbtw guys ada yang mau kerja WFH dibayar harian dari Wardah dan cosmetics ga??",
+          "label": "negative",
+          "score": 0.9986
+        },
+        {
+          "text": "emang udh bener sih Dil pak Muh gak bilang stop, biar smpe subuh tuh tangan pegel🤣",
+          "label": "negative",
+          "score": 0.9939
+        },
+        {
+          "text": "day 1 disuruh push up sama bang fadil😭😭",
+          "label": "neutral",
+          "score": 0.6785
+        },
+        {
+          "text": "ka emang pernah main sama yg namanya sifaa?",
+          "label": "neutral",
+          "score": 0.5558
+        },
+        {
+          "text": "Kabarin kalau ufah rame 😁",
+          "label": "neutral",
+          "score": 0.4987
+        },
+        {
+          "text": "Pertama",
+          "label": "positive",
+          "score": 0.9951
+        },
+        {
+          "text": "pecah ketawaku, liat kak Fadil ngisengin papa nya 🤣🤣",
+          "label": "negative",
+          "score": 0.709
+        },
+        {
+          "text": "untung pak muh gak baby blues punya anak ke fadil😭",
+          "label": "positive",
+          "score": 0.9927
+        },
+        {
+          "text": "YOUTUBE WOYYY YOUTUBE!!!!",
+          "label": "positive",
+          "score": 0.941
+        },
+        {
+          "text": "Ini semua gara2 jule anj🗿",
+          "label": "negative",
+          "score": 0.9975
+        },
+        {
+          "text": "emang bener yee\ndilla : jantung nya pak muh\nyislam : dokter jantung\nFadil : bikin jantung annnn",
+          "label": "positive",
+          "score": 0.9443
+        },
+        {
+          "text": "yotoube bang plis",
+          "label": "positive",
+          "score": 0.9988
+        },
+        {
+          "text": "bg fadli sapa dong🙏",
+          "label": "neutral",
+          "score": 0.6961
+        },
+        {
+          "text": "Fadil mmg bener2 jail banget. 😄 tapi pak Muh ttp jadi ayah yg baik wlw pun sering di prank dijailin ama fadil yaa",
+          "label": "negative",
+          "score": 0.7162
+        },
+        {
+          "text": "perasaan masih nol komen😭",
+          "label": "negative",
+          "score": 0.9964
+        },
+        {
+          "text": "fadil bajaidah",
+          "label": "neutral",
+          "score": 0.9614
+        }
+      ]
+    },
+    {
+      "video_id": "7567309579286088981",
+      "comments": [
+        {
+          "text": "POV: ternyata Pablo Escobar adalah pak muh🗿",
+          "label": "neutral",
+          "score": 0.9839
+        },
+        {
+          "text": "apa kita potosut, biar pak muh jadi model beneran?🤭🤭🤭",
+          "label": "neutral",
+          "score": 0.7372
+        },
+        {
+          "text": "GUA PERCAYA ITU BENERAN😭",
+          "label": "positive",
+          "score": 0.8771
+        },
+        {
+          "text": "\"PAKE APA PAKE APA\"",
+          "label": "negative",
+          "score": 0.9984
+        },
+        {
+          "text": "Curigaa pak muh bestian sama snoopdogg",
+          "label": "negative",
+          "score": 0.9791
+        },
+        {
+          "text": "“PAKE APA PAKE APA DI APUS”",
+          "label": "negative",
+          "score": 0.9987
+        },
+        {
+          "text": "muh escobar 😭😭😭",
+          "label": "positive",
+          "score": 0.9973
+        },
+        {
+          "text": "wahai Fadil apakah YouTube bagimu hanya pajangan",
+          "label": "neutral",
+          "score": 0.804
+        },
+        {
+          "text": "moodswing bgt orang arab satu ini😌",
+          "label": "positive",
+          "score": 0.9918
+        },
+        {
+          "text": "emang bener yee\ndilla : jantung nya pak muh\nyislam : dokter jantung\nFadil : bikin jantung annnn",
+          "label": "positive",
+          "score": 0.9443
+        },
+        {
+          "text": "anjay🤣",
+          "label": "positive",
+          "score": 0.9972
+        },
+        {
+          "text": "“PAKE APA YAAMPUN” 😭😭😭",
+          "label": "positive",
+          "score": 0.916
+        },
+        {
+          "text": "kelompok A : Fadil, miskah, bu ida, david\nkelompok B : ka yislam, pak muh, dila, aisyah",
+          "label": "neutral",
+          "score": 0.9782
+        },
+        {
+          "text": "pak muh gampang bgt diboongin😭",
+          "label": "positive",
+          "score": 0.9423
+        },
+        {
+          "text": "malah ketawa lu muh😭😭🙏",
+          "label": "positive",
+          "score": 0.9896
+        },
+        {
+          "text": "mana ngotot lagii nanyanya😭",
+          "label": "negative",
+          "score": 0.9961
+        },
+        {
+          "text": "malah kesenengan endingnya...",
+          "label": "positive",
+          "score": 0.9078
+        },
+        {
+          "text": "Yg nih ga ada tatto nya😭😭",
+          "label": "negative",
+          "score": 0.8569
+        },
+        {
+          "text": "pake apa pake apa pake apa😭😭😭",
+          "label": "positive",
+          "score": 0.8585
+        },
+        {
+          "text": "Dil yt lu udah angker😭",
+          "label": "negative",
+          "score": 0.9993
+        }
+      ]
+    },
+    {
+      "video_id": "7566996720303820052",
+      "comments": [
+        {
+          "text": "Dia bisa beli secret yg harganya gak seberapa itu, tapi dia lebih milih cari sendiri, emang disitu letak nikmatnya, hasil sendiri mempunyai kepuasan yg tidak bisa dijelaskan.",
+          "label": "positive",
+          "score": 0.995
+        },
+        {
+          "text": "duluan mass",
+          "label": "positive",
+          "score": 0.568
+        },
+        {
+          "text": "nonton sambil mancing",
+          "label": "positive",
+          "score": 0.941
+        },
+        {
+          "text": "di level 565 baru lulus isle, ga usah tanya mental gmn. udah kenaaaaa toloonng.. tidur ke bawa mimpi, ngigo nanyain ikan, padahal ini mancing cmn di liatin doang😭😭",
+          "label": "negative",
+          "score": 0.9981
+        },
+        {
+          "text": "nyangka ga lu semua",
+          "label": "negative",
+          "score": 0.983
+        },
+        {
+          "text": "gini bkn bang☺",
+          "label": "negative",
+          "score": 0.9283
+        },
+        {
+          "text": "vlog woi yutub jdi sarang hantu",
+          "label": "neutral",
+          "score": 0.5942
+        },
+        {
+          "text": "nah nah ambil nah",
+          "label": "neutral",
+          "score": 0.9918
+        },
+        {
+          "text": "lu 2 bulan nunggu itu? kita nunggu elu ngevlog padiiiill, kurang sabar apaa",
+          "label": "negative",
+          "score": 0.9991
+        },
+        {
+          "text": "TikTokApi.comment(comment_id='7568022512325739285', text='')",
+          "label": "neutral",
+          "score": 0.9897
+        },
+        {
+          "text": "cuma 20mnt🗿",
+          "label": "positive",
+          "score": 0.9471
+        },
+        {
+          "text": "apa nama game nya terus wajib top up apa ngga",
+          "label": "positive",
+          "score": 0.8872
+        },
+        {
+          "text": "aku siang malam ng3kos di islee,gk dapet dapen keraken😌😭",
+          "label": "negative",
+          "score": 0.6363
+        },
+        {
+          "text": "hati2 yg mKe laptop buat afk fish it ntr kek gini😭",
+          "label": "negative",
+          "score": 0.6994
+        },
+        {
+          "text": "berkah x8 kemrn diksih kraken😁",
+          "label": "neutral",
+          "score": 0.9815
+        },
+        {
+          "text": "SAMA FADILLLLLL UDAH STRES AKU INIIII SATU SECRET AJA NGGAK NAIK NAIKKKKK😭🔥",
+          "label": "negative",
+          "score": 0.9905
+        },
+        {
+          "text": "YOUTUBEEEEEEE WOIIIIIIIII",
+          "label": "positive",
+          "score": 0.869
+        },
+        {
+          "text": "Nih bang",
+          "label": "positive",
+          "score": 0.9966
+        },
+        {
+          "text": "Nyari secret di Fish It tuh awalnya cuma buat seru-seruan. Cuma pengen tau aja, “nih secret di mana sih?” Tapi lama-lama gue sadar, makin dicari malah makin bikin penasaran, makin bikin mikir. Udah gue selam ke segala arah, lompat ke tiap batu, muter map sampe hafal bentuk karangnya, tapi hasilnya nihil. Awalnya kesal, pengen nyerah. Tapi dari situ gue mulai mikir, mungkin ini bukan soal dapet atau nggaknya, tapi soal prosesnya. Soalnya, kadang sesuatu yang kita cari itu gak disembunyiin. Cuma belum waktunya aja buat kita liat. Gue ngerasa kayak, waktu itu sendiri tuh secret. Semua yang kita tunggu, semua yang kita kejar, bakal muncul kalau momennya udah pas. Tapi ya itu, harus sabar dulu. Harus tahan dulu di fase di mana semua usaha kayak sia-sia. Karena di situlah kita diuji bukan seberapa cepet dapet hasil, tapi seberapa kuat kita bertahan tanpa kehilangan semangat. Dari situ gue mulai ngerti, gak semua hal bisa dipaksa. Kadang, makin kita buru-buru, makin jauh hasilnya. Tapi pas kita mulai nikmatin aja prosesnya, gak terlalu ngotot, eh malah satu-satu clue muncul, kayak teori respawn, atau teori lepas ikan sampe di spam merah wkwk, tapi disitulah letak pelajarannya, bahwa tidak ada hasil yang instan untuk mendapatkan yang terbaik. Mungkin game ini emang didesain bukan cuma buat nyari secret, tapi buat nguji cara kita ngadepin hal yang gak pasti. Buat liat, apakah kita cuma main buat hasil, atau kita beneran menikmati perjalanannya. Sekarang tiap kali main, gue gak terlalu fokus ke secret-nya lagi. Gue jalan aja, eksplor, liat pemandangan, dengerin musik di game, ngerasain suasananya. Karena gue sadar, itu juga bagian dari pengalaman. Dan anehnya, pas gue udah santai gitu, malah lebih sering nemuin hal-hal yang sebelumnya kelewatan. Kadang yang kita cari itu gak jauh, cuma ketutupan sama cara kita yang terlalu terburu-buru. Akhirnya gue nemuin makna dari semuanya: Fish It itu bukan sekadar game, tapi cermin kecil dari hidup. Di mana kita sering nyari hal yang “rahasia”, padahal yang sebenarnya penting tuh bukan hasil akhirnya, tapi gimana kita bisa tetap sabar, tetap tenang, dan tetap nikmatin waktu yang kita punya sekarang.",
+          "label": "negative",
+          "score": 0.9956
+        },
+        {
+          "text": "ehemmm",
+          "label": "negative",
+          "score": 0.9988
+        }
+      ]
+    },
+    {
+      "video_id": "7566529281254231316",
+      "comments": [
+        {
+          "text": "👶🏻:”diarahin sama yg hilang arah🗿”",
+          "label": "negative",
+          "score": 0.99
+        },
+        {
+          "text": "penasaran banget sama muka aisha anak miskah gimna, pasti cantik kek emak nya 😊",
+          "label": "negative",
+          "score": 0.8155
+        },
+        {
+          "text": "ini orang tua nya kemana si?? udah ngerti klo bayi ditinggal sendirian, nanti diganggu jin. 😭",
+          "label": "negative",
+          "score": 0.9991
+        },
+        {
+          "text": "takut bgt, ngira fadil bapak nya",
+          "label": "negative",
+          "score": 0.9978
+        },
+        {
+          "text": "kebiasaan miskah lupa nyalain murotal",
+          "label": "negative",
+          "score": 0.9984
+        },
+        {
+          "text": "orang tuanya mane si ini😭",
+          "label": "negative",
+          "score": 0.9984
+        },
+        {
+          "text": "👶: \"buset muncrat dil\"",
+          "label": "negative",
+          "score": 0.5222
+        },
+        {
+          "text": "sederhana tpi dapid ga bisa ya dil? 😭🙏🏻",
+          "label": "positive",
+          "score": 0.73
+        },
+        {
+          "text": "👶: di arahin sma yg hilang arah",
+          "label": "neutral",
+          "score": 0.982
+        },
+        {
+          "text": "👶🏻 : \"agak bau jengkol gitu ya\"",
+          "label": "negative",
+          "score": 0.9909
+        },
+        {
+          "text": "plis lucu bngt, jule anj",
+          "label": "negative",
+          "score": 0.5867
+        },
+        {
+          "text": "miskah toolooooooong😂😂😂",
+          "label": "negative",
+          "score": 0.9984
+        },
+        {
+          "text": "kelompok 1: fadil, mama ida, miskah, aisyah\nkelompok 2: pak muh, kak yislam, dilla",
+          "label": "neutral",
+          "score": 0.9758
+        },
+        {
+          "text": "kayaknya Aisha bakal jadi Tim Fadil dehhh😭",
+          "label": "positive",
+          "score": 0.8576
+        },
+        {
+          "text": "miskah miskah liat ank lu miskah😭",
+          "label": "negative",
+          "score": 0.9968
+        },
+        {
+          "text": "apakah ini bakal jadi padil part 2😭",
+          "label": "neutral",
+          "score": 0.9634
+        },
+        {
+          "text": "Anaknya miskah bi like: atur aja dil gw ngikut aje",
+          "label": "negative",
+          "score": 0.9756
+        },
+        {
+          "text": "miskah ketularan fadil, anaknya juga",
+          "label": "negative",
+          "score": 0.994
+        },
+        {
+          "text": "miskah fadil ibu aisyah oke satu team",
+          "label": "neutral",
+          "score": 0.9893
+        },
+        {
+          "text": "gini aja gue ketawaaa😭😭",
+          "label": "positive",
+          "score": 0.9955
+        }
+      ]
+    }
+  ]
+}
