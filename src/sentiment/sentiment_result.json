@@ -1,0 +1,112 @@
+{
+  "video_url": "https://www.tiktok.com/@fadiljaidi/video/7551714049612958987",
+  "summary": {
+    "positive": 5,
+    "negative": 12,
+    "neutral": 3,
+    "total": 20
+  },
+  "sentiment_score": -35.0,
+  "comments": [
+    {
+      "text": "aisha: pegi pegi pegi pegi",
+      "label": "neutral",
+      "score": 0.9661
+    },
+    {
+      "text": "\"om padil suka om padil suka kentut nyaa wangii\"😭",
+      "label": "positive",
+      "score": 0.9993
+    },
+    {
+      "text": "doakan kami semoga segera di berikan keturunan,, penantian 7 tahun 🙏",
+      "label": "positive",
+      "score": 0.4146
+    },
+    {
+      "text": "\"ayo kentut lagi kentut lagi\"😭",
+      "label": "negative",
+      "score": 0.9991
+    },
+    {
+      "text": "aisha: alamak makhluk ini lagi...",
+      "label": "negative",
+      "score": 0.9742
+    },
+    {
+      "text": "tadi ketemu dimasjid ka fadil",
+      "label": "neutral",
+      "score": 0.9976
+    },
+    {
+      "text": "miskah ga setelin murottal lagi ya?",
+      "label": "negative",
+      "score": 0.9969
+    },
+    {
+      "text": "ciri-ciri bos muda :\ncontohnya yang lagi baca ini, punya mulut tapi baca dalam hati, udah gitu cakep lagi",
+      "label": "negative",
+      "score": 0.5816
+    },
+    {
+      "text": "tersinggung bgt aisha😭😭😭",
+      "label": "negative",
+      "score": 0.9992
+    },
+    {
+      "text": "agak takut sih ka😭",
+      "label": "negative",
+      "score": 0.9978
+    },
+    {
+      "text": "Baru kali ini liat padil ngalah🤣",
+      "label": "negative",
+      "score": 0.9865
+    },
+    {
+      "text": "TEMEN2 JANGAN LUPA\nJAGA SOLAT 5 WAKTUNYA DAN TOBAT DARI SEKARANG.\nDUNIA UDAH SEMAKIN TUA,\nKALO NGGAK SEKARANG KAPAN LAGI,USAHAIN WAKTUNYA LEBIH BANYAK UNTUK AKHIRAT YAA.\nJANGAN LUPA QURAN NYA DI BACA🥺🙏\nSEMOGA KAUM MUSLIMIN DAN MUSLIMAT DI SELURUH DUNIA BISA ISTIQOMAH DIJALAN ALLAH,AAMIIN AAMIIN AAMIIN🤲\nMAAF CUMAN MAU NGINGETIN🙏",
+      "label": "positive",
+      "score": 0.9372
+    },
+    {
+      "text": "“kentut” 😮",
+      "label": "negative",
+      "score": 0.9961
+    },
+    {
+      "text": "Lihat Om Fadil bawaannya sakit perut😋",
+      "label": "negative",
+      "score": 0.9979
+    },
+    {
+      "text": "aisha : udah diberakkin, kentutin masih aja datang nih orang",
+      "label": "negative",
+      "score": 0.9541
+    },
+    {
+      "text": "👶🏻 Aisyah: mama si lupa tutup pintu mahluk ini jadi masuk lagi",
+      "label": "neutral",
+      "score": 0.9891
+    },
+    {
+      "text": "aku denger nya \"om badut suka om badut suka wangii wangii om badut suka sekali\"",
+      "label": "positive",
+      "score": 0.9952
+    },
+    {
+      "text": "Doakan saya semoga pacar saya persalinan nya lancar dan bayi nya sehat",
+      "label": "positive",
+      "score": 0.9689
+    },
+    {
+      "text": "miskah murotal nya mana .....😭😭😭",
+      "label": "negative",
+      "score": 0.9876
+    },
+    {
+      "text": "miskah nyalain murotal",
+      "label": "negative",
+      "score": 0.9927
+    }
+  ]
+}
