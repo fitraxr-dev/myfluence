@@ -3,7 +3,13 @@ import time
 import json
 from pathlib import Path
 from services.influencer_data import get_user_info, get_user_videos
-from services.influencer_metrics import calculate_engagement_rate, calculate_avg_engagement_rate_per_post
+from services.influencer_metrics import (
+    calculate_engagement_rate, 
+    calculate_avg_engagement_rate_per_post,
+    calculate_avg_posts_like,
+    calculate_avg_posts_comment,
+    calculate_avg_posts_shares
+)
 from utils.save_data import save_user_data
 
 # Daftar influencer yang akan di-scrape
@@ -70,6 +76,9 @@ async def main():
             # Hitung metrics
             engagement_rate = calculate_engagement_rate(stats_data, videos)
             avg_engagement_per_post = calculate_avg_engagement_rate_per_post(videos)
+            avg_likes = calculate_avg_posts_like(videos)
+            avg_comments = calculate_avg_posts_comment(videos)
+            avg_shares = calculate_avg_posts_shares(videos)
             
             # Simpan metrics ke file
             metrics_dir = Path(__file__).parent / "data" / "metrics"
@@ -82,16 +91,22 @@ async def main():
                 'total_videos_analyzed': len(videos),
                 'engagement_rate': engagement_rate,
                 'avg_engagement_per_post': avg_engagement_per_post,
+                'avg_likes': avg_likes,
+                'avg_comments': avg_comments,
+                'avg_shares': avg_shares,
                 'timestamp': video_data.get('timestamp', '')
             }
             
-            metrics_file = metrics_dir / f"{username}.er_metrics.json"
+            metrics_file = metrics_dir / f"{username}.metrics.json"
             with open(metrics_file, 'w', encoding='utf-8') as f:
                 json.dump(metrics_data, f, indent=2, ensure_ascii=False)
             
             print(f"  ✓ Metrics calculated and saved:")
             print(f"    - Engagement Rate: {engagement_rate}%")
             print(f"    - Avg Engagement/Post: {avg_engagement_per_post}%")
+            print(f"    - Avg Likes/Post: {avg_likes:,.2f}")
+            print(f"    - Avg Comments/Post: {avg_comments:,.2f}")
+            print(f"    - Avg Shares/Post: {avg_shares:,.2f}")
             success_metrics += 1
         
         # Delay antar request (kecuali yang terakhir)

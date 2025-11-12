@@ -84,6 +84,84 @@ def calculate_avg_engagement_rate_per_post(videos: List[Dict]) -> float:
     return round(avg_engagement_rate, 2)
 
 
+def calculate_avg_posts_like(videos: List[Dict]) -> float:
+    """
+    Menghitung rata-rata likes dari semua video
+    
+    Formula: Total Likes / Jumlah Video
+    
+    Args:
+        videos (List[Dict]): List video dengan stats masing-masing
+    
+    Returns:
+        float: Rata-rata likes per video
+    """
+    if not videos:
+        return 0.0
+    
+    total_likes = 0
+    
+    for video in videos:
+        video_stats = video.get('stats', {})
+        likes = video_stats.get('likeCount', 0)
+        total_likes += likes
+    
+    avg_likes = total_likes / len(videos)
+    return round(avg_likes, 2)
+
+
+def calculate_avg_posts_comment(videos: List[Dict]) -> float:
+    """
+    Menghitung rata-rata comments dari semua video
+    
+    Formula: Total Comments / Jumlah Video
+    
+    Args:
+        videos (List[Dict]): List video dengan stats masing-masing
+    
+    Returns:
+        float: Rata-rata comments per video
+    """
+    if not videos:
+        return 0.0
+    
+    total_comments = 0
+    
+    for video in videos:
+        video_stats = video.get('stats', {})
+        comments = video_stats.get('commentCount', 0)
+        total_comments += comments
+    
+    avg_comments = total_comments / len(videos)
+    return round(avg_comments, 2)
+
+
+def calculate_avg_posts_shares(videos: List[Dict]) -> float:
+    """
+    Menghitung rata-rata shares dari semua video
+    
+    Formula: Total Shares / Jumlah Video
+    
+    Args:
+        videos (List[Dict]): List video dengan stats masing-masing
+    
+    Returns:
+        float: Rata-rata shares per video
+    """
+    if not videos:
+        return 0.0
+    
+    total_shares = 0
+    
+    for video in videos:
+        video_stats = video.get('stats', {})
+        shares = video_stats.get('shareCount', 0)
+        total_shares += shares
+    
+    avg_shares = total_shares / len(videos)
+    return round(avg_shares, 2)
+
+
 def get_influencer_metrics(username: str) -> Optional[Dict]:
     """
     Mengambil dan menghitung metrics lengkap untuk influencer
