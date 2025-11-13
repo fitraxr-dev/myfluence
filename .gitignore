@@ -51,12 +51,18 @@ src/data/info/*.json
 src/data/stats/*.json
 src/data/videos/*.json
 src/data/metrics/*.json
+src/data/sentiment/*.json
 
 # Keep folder structure but ignore content
 !src/data/info/.gitkeep
 !src/data/stats/.gitkeep
 !src/data/videos/.gitkeep
 !src/data/metrics/.gitkeep
+!src/data/sentiment/.gitkeep
+
+# Output files
+output/
+*.jsonl
 
 # Logs
 *.log
